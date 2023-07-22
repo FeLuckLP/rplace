@@ -2,7 +2,7 @@
 
 **1. Installieren der Browsererweiterung [Tampermonkey](https://tampermonkey.net)**
 
-**2. Installieren des [Scripts](https://github.com/rplacebonjwa/rplace/raw/main/overlay.user.js)**
+**2. Installieren des [Scripts](https://github.com/FeLuckLP/rplace/raw/main/overlay.user.js)**
 
 
 ## Hinzufügen neuer Bilder
@@ -17,7 +17,7 @@ Das Bild muss 1:1 das Pixelart sein und nur aus den vorgegebenen Farben von Redd
 ```toml
 [[structure]]
 name = "beispiel"
-file = "bonjwa/beispiel.png"
+file = "pictures/beispiel.png"
 startx = 1234 #x-Koordinate
 starty = 5678 #y-Koordinate
 priority = 2
