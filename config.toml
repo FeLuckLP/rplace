@@ -28,12 +28,12 @@ startx = 186
 starty = -335
 priority = 1
 
-[[structure]]
-name = "schildi"
-file = "pictures/abenteurerdiebegegnung.png"
-startx = 242
-starty = -304
-priority = 1
+#[[structure]]
+#name = "schildi"
+#file = "pictures/abenteurerdiebegegnung.png"
+#startx = 242
+#starty = -304
+#priority = 1
 
 #[[structure]]
 #name = "phunk"
