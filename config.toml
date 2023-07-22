@@ -18,18 +18,9 @@ ignore_colors = [
 "2" = 5
 "3" = 10
 
-#[[structure]]
-#name = "lurch"
-#file = "bonjwa/uk_flag_pixelart.png"
-#startx = 666
-#starty = 170
-#priority = 10
-
 [[structure]]
-name = "tobi"
-file = "pictures/tobi.png"
-#startx = 1234
-#starty = 234
-startx = 234
-starty = -266
+name = "lurch"
+file = "pictures/gronkh-and-friends.png"
+startx = 160
+starty = -342
 priority = 1

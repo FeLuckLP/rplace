@@ -124,9 +124,6 @@ if __name__ == "__main__":
         y = struct["starty"]
         y = abs(-500-y)
 
-        print(x)
-        print(y)
-
         data["structures"][name] = create_structure(file, priority_file, x, y, struct["priority"], ignore_colors, used_pixels)
     
     with open(args.output, "w") as f:
