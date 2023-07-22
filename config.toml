@@ -35,12 +35,12 @@ startx = 242
 starty = -304
 priority = 1
 
-#[[structure]]
-#name = "phunk"
-#file = "pictures/tattoologophunkrplace.png"
-#startx = 262
-#starty = -288
-#priority = 1
+[[structure]]
+name = "phunk"
+file = "pictures/tattoologophunkrplace.png"
+startx = 262
+starty = -288
+priority = 1
 
 #[[structure]]
 #name = "gronkh-2"
