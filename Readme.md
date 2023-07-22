@@ -2,12 +2,12 @@
 
 **1. Installieren der Browsererweiterung [Tampermonkey](https://tampermonkey.net)**
 
-**2. Installieren des [Scripts](https://github.com/FeLuckLP/rplace/raw/main/overlay.user.js)**
+**2. Installieren des [Scripts](https://github.com/FeLuckLP/rplace/raw/main/overlay.user.js)** (<== _wenn Tampermonkey installiert und aktiviert ist, reicht es [hier](https://github.com/FeLuckLP/rplace/raw/main/overlay.user.js) zu klicken_)
 
 
 ## Hinzufügen neuer Bilder
 
-**1. Bild in bonjwa-Ordner hinzufügen mit Dateiname:** 
+**1. Bild in pictures-Ordner hinzufügen mit Dateiname:** 
 
 _beispiel.png_ mit transparentem Hintergrund und KEINEM leeren Rand.\
 Das Bild muss 1:1 das Pixelart sein und nur aus den vorgegebenen Farben von Reddit bestehend
@@ -18,13 +18,11 @@ Das Bild muss 1:1 das Pixelart sein und nur aus den vorgegebenen Farben von Redd
 [[structure]]
 name = "beispiel"
 file = "pictures/beispiel.png"
-startx = 1234 #x-Koordinate
-starty = 5678 #y-Koordinate
-priority = 2
+startx = 200 #x-Koordinate
+starty = -200 #y-Koordinate
+priority = 1
 ```
-Dabei bezeichnet die Koordinate das oberste linke Pixel der verlinkten png in r/place
-und Priority bitte **NICHT** ändern, außer es ist mit dem Rest der Devs abgesprochen.
-Die Koordinaten sind **NICHT** die gleichen wie in r/place, diese bitte genau prüfen.
+Die Koordinaten **sind die gleichen** wie in r/place.
 
 **3. Scripte ausführen und Output prüfen:**
 Zwei Skripte in der angegebenen Reihenfolge aus dem Hauptordner des Repos ausführen\
@@ -37,7 +35,7 @@ WICHTIG: In der _output.png_ gucken, dass die Bilder richtig platziert wurden un
 
 Mithilfe der Dockerfile kann ein Image/Container erstellt werden, welcher bereits für die Ausführung der Python Skripts konfiguriert ist.
 
-**4. Pull Request erstellen und von anderem Dev prüfen lassen** 
+**4. Pull Request erstellen** 
 
 Die von den Python-Skripten generierten Dateien sollten **NICHT** mit in den Pull Request. Diese werden automatisch auf dem Server generiert und führen ansonten zu merge Konflikten. Dies betrifft folgende Dateien:\
 _output.png_\
