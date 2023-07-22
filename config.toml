@@ -31,3 +31,10 @@ file = "pictures/tattoologophunkrplace.png"
 startx = 262
 starty = -288
 priority = 1
+
+[[structure]]
+name = "gronkh-2"
+file = "pictures/gronkh-2.png"
+startx = 211
+starty = -338
+priority = 1
