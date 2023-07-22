@@ -28,6 +28,6 @@ priority = 1
 [[structure]]
 name = "phunk"
 file = "pictures/tattoologophunkrplace.png"
-startx = 264
-starty = -286
+startx = 262
+starty = -288
 priority = 1
