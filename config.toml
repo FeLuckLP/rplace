@@ -28,6 +28,8 @@ ignore_colors = [
 [[structure]]
 name = "tobi"
 file = "pictures/tobi.png"
-startx = 1234
-starty = 234
+#startx = 1234
+#starty = 234
+startx = 234
+starty = -266
 priority = 1

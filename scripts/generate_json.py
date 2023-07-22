@@ -117,7 +117,17 @@ if __name__ == "__main__":
         priority_file = struct.get("priority_file", None)
         name = struct["name"]
         print(f"Adding file {file} for structure {name}")
-        data["structures"][name] = create_structure(file, priority_file, struct["startx"], struct["starty"], struct["priority"], ignore_colors, used_pixels)
+
+        x = struct["startx"]
+        x = abs(-1000-x)
+
+        y = struct["starty"]
+        y = abs(-500-y)
+
+        print(x)
+        print(y)
+
+        data["structures"][name] = create_structure(file, priority_file, x, y, struct["priority"], ignore_colors, used_pixels)
     
     with open(args.output, "w") as f:
         f.write(json.dumps(data, separators=(',', ':')))
