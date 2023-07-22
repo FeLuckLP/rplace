@@ -24,3 +24,10 @@ file = "pictures/gronkh-and-friends.png"
 startx = 160
 starty = -342
 priority = 1
+
+[[structure]]
+name = "phunk"
+file = "pictures/tattoologophunkrplace.png"
+startx = 264
+starty = -286
+priority = 1
