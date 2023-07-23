@@ -76,3 +76,10 @@ file = "pictures/pan-glyphe.png"
 startx = 228
 starty = -298
 priority = 1
+
+[[structure]]
+name = "suki-erweiterung"
+file = "pictures/suki-erweiterung.png"
+startx = 186
+starty = -279
+priority = 1
