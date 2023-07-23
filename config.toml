@@ -62,3 +62,17 @@ priority = 1
 #startx = 133
 #starty = -627
 #priority = 1
+
+#[[structure]]
+#name = "pan-sitzt"
+#file = "pictures/pan-sitzt.png"
+#startx = 249
+#starty = -296
+#priority = 1
+
+[[structure]]
+name = "pan-glyphe"
+file = "pictures/pan-glyphe.png"
+startx = 228
+starty = -298
+priority = 1
