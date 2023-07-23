@@ -56,9 +56,9 @@ priority = 1
 #starty = -221
 #priority = 1
 
-[[structure]]
-name = "hoppy-tmp"
-file = "pictures/hoppy.png"
-startx = 133
-starty = -627
-priority = 1
+#[[structure]]
+#name = "hoppy-tmp"
+#file = "pictures/hoppy.png"
+#startx = 133
+#starty = -627
+#priority = 1
