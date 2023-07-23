@@ -48,3 +48,10 @@ priority = 1
 #startx = 210
 #starty = -338
 #priority = 1
+
+[[structure]]
+name = "ikea-tmp"
+file = "pictures/ikea.png"
+startx = 198
+starty = -221
+priority = 1
