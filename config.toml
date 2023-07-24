@@ -97,3 +97,10 @@ file = "pictures/lichtenstein-klein.png"
 startx = 766
 starty = -315
 priority = 1
+
+[[structure]]
+name = "tuerkei"
+file = "pictures/TASARIM_FINAL.png"
+startx = -368
+starty = 290
+priority = 1
