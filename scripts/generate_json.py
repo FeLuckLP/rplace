@@ -119,7 +119,7 @@ if __name__ == "__main__":
         print(f"Adding file {file} for structure {name}")
 
         x = struct["startx"]
-        x = abs(-1000-x)
+        x = abs(-1500-x)
 
         y = struct["starty"]
         y = abs(-1000-y)
