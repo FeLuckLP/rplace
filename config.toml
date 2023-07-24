@@ -90,3 +90,10 @@ file = "pictures/placeDE_Gronkh_Overlay_v2.png"
 startx = 215
 starty = -331
 priority = 1
+
+[[structure]]
+name = "lichtenstein-klein"
+file = "pictures/lichtenstein-klein.png"
+startx = 766
+starty = -315
+priority = 1
