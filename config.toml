@@ -18,15 +18,15 @@ ignore_colors = [
 "2" = 5
 "3" = 10
 
-#[[structure]]
-#name = "lurch"
+[[structure]]
+name = "lurch"
 #file = "pictures/gronkh-and-friends.png"
 #startx = 160
 #starty = -342
-#file = "pictures/gronkh-and-friends-new.png"
-#startx = 186
-#starty = -335
-#priority = 1
+file = "pictures/gronkh-and-friends-new.png"
+startx = 186
+starty = -335
+priority = 1
 
 #[[structure]]
 #name = "schildi"
@@ -70,30 +70,16 @@ ignore_colors = [
 #starty = -296
 #priority = 1
 
-#[[structure]]
-#name = "pan-glyphe"
-#file = "pictures/pan-glyphe.png"
-#startx = 228
-#starty = -298
-#priority = 1
-
-#[[structure]]
-#name = "suki-erweiterung"
-#file = "pictures/suki-erweiterung.png"
-#startx = 186
-#starty = -278
-#priority = 1
-
 [[structure]]
-name = "aa"
-file = "pictures/FF_Logo.png"
-startx = 0
-starty = 0
+name = "pan-glyphe"
+file = "pictures/pan-glyphe.png"
+startx = 228
+starty = -298
 priority = 1
 
 [[structure]]
-name = "bb"
-file = "pictures/StuhlTV_place.png"
-startx = 0
-starty = 0
+name = "suki-erweiterung"
+file = "pictures/suki-erweiterung.png"
+startx = 186
+starty = -278
 priority = 1
