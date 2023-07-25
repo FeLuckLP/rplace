@@ -18,15 +18,15 @@ ignore_colors = [
 "2" = 5
 "3" = 10
 
-[[structure]]
-name = "lurch"
+#[[structure]]
+#name = "lurch"
 #file = "pictures/gronkh-and-friends.png"
 #startx = 160
 #starty = -342
-file = "pictures/gronkh-and-friends-new.png"
-startx = 186
-starty = -335
-priority = 1
+#file = "pictures/gronkh-and-friends-new.png"
+#startx = 186
+#starty = -335
+#priority = 1
 
 #[[structure]]
 #name = "schildi"
@@ -70,26 +70,26 @@ priority = 1
 #starty = -296
 #priority = 1
 
-[[structure]]
-name = "pan-glyphe"
-file = "pictures/pan-glyphe.png"
-startx = 228
-starty = -298
-priority = 1
+#[[structure]]
+#name = "pan-glyphe"
+#file = "pictures/pan-glyphe.png"
+#startx = 228
+#starty = -298
+#priority = 1
 
-[[structure]]
-name = "suki-erweiterung"
-file = "pictures/suki-erweiterung.png"
-startx = 186
-starty = -278
-priority = 1
+#[[structure]]
+#name = "suki-erweiterung"
+#file = "pictures/suki-erweiterung.png"
+#startx = 186
+#starty = -278
+#priority = 1
 
-[[structure]]
-name = "placeDE"
-file = "pictures/placeDE_Gronkh_Overlay_v2.png"
-startx = 215
-starty = -331
-priority = 1
+#[[structure]]
+#name = "placeDE"
+#file = "pictures/placeDE_Gronkh_Overlay_v2.png"
+#startx = 215
+#starty = -331
+#priority = 1
 
 [[structure]]
 name = "lichtenstein-klein"
@@ -98,9 +98,9 @@ startx = 766
 starty = -315
 priority = 1
 
-#[[structure]]
-#name = "tuerkei"
-#file = "pictures/TASARIM_FINAL.png"
-#startx = -368
-#starty = 290
-#priority = 1
+[[structure]]
+name = "gronkh-and-friends"
+file = "pictures/gronkh-and-friends-placeDE-update.png"
+startx = 186
+starty = -335
+priority = 1
